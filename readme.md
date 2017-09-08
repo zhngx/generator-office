@@ -73,6 +73,20 @@ $ npm run validate your_manifest.xml
 
 For more information on manifest validation, refer to our [add-in manifests documentation](https://dev.office.com/docs/add-ins/overview/add-in-manifests).
 
+> Note if you select generate manifest only when you `yo office`, to validate the manifest, first you need run
+> 
+> ```bash
+> npm i --save-dev office-addin-validator
+> ```
+> 
+> Update your **package.json** by adding
+> 
+> ```json
+> "scripts": {
+>   "validate": "./node_modules/.bin/validate-office-addin"
+> }
+> ```
+
 ## Command Line Arguments:
 List of supported arguments. The generator will prompt you accordingly based on the arguments you provided.
 
