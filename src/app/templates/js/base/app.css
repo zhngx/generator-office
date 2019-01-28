@@ -119,13 +119,62 @@ h6 {
 
 .ms-welcome__action.ms-Button--hero .ms-Button-icon .ms-Icon {
     margin-left: 5px;
-    margin-top: 4px;
+    margin-top: 8px;
     border: none;
     font-size: 14pt;
 }
 
 .ms-welcome__action.ms-Button--hero:hover .ms-Button-icon .ms-Icon {
     border: none;
+}
+
+ 
+.ms-Button.ms-Button--hero .ms-Button-icon {
+    color: #0078d7;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+
+  
+.ms-Button.ms-Button--hero .ms-Button-label {
+    color: #0078d7;
+    font-size: 21px;
+    font-weight: 100;
+    position: relative;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.ms-Button.ms-Button--hero:hover .ms-Button-icon,
+.ms-Button.ms-Button--hero:focus .ms-Button-icon {
+    color: #005a9e;
+    cursor: pointer;
+}
+
+  
+.ms-Button.ms-Button--hero:hover .ms-Button-label,
+.ms-Button.ms-Button--hero:focus .ms-Button-label {
+    color: #004578;
+    cursor: pointer;
+}
+  
+.ms-Button.ms-Button--hero:active .ms-Button-icon {
+    color: #0078d7;
+}
+  
+.ms-Button.ms-Button--hero:active .ms-Button-label {
+    color: #0078d7;
+}
+  
+.ms-Button.ms-Button--hero:disabled .ms-Button-icon,
+.ms-Button.ms-Button--hero.is-disabled .ms-Button-icon {
+    color: #c8c8c8;
+}
+  
+.ms-Button.ms-Button--hero:disabled .ms-Button-label,
+.ms-Button.ms-Button--hero.is-disabled .ms-Button-label {
+    color: #a6a6a6;
 }
 
 @media (min-width: 0) and (max-width: 350px) {
