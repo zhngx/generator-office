@@ -35,6 +35,8 @@ h6 {
     min-width: 320px;
     overflow: auto;
     overflow-x: hidden;
+    font-family: 'Segoe UI WestEuropean', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    color: #333333;
 }
 
 .ms-welcome__header {
@@ -51,11 +53,14 @@ h6 {
     align-items: center;
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
+    background: #f4f4f4;
 }
 
 .ms-welcome__header > h1 {
     margin-top: 30px;
     text-align: center;
+    font-size: 42px;
+    font-weight: lighter;
 }
 
 .ms-welcome__main {
@@ -75,6 +80,8 @@ h6 {
 .ms-welcome__main > h2 {
     width: 100%;
     text-align: center;
+    font-size: 21px;
+    font-weight: lighter;
 }
 
 .ms-welcome__features {
@@ -93,6 +100,7 @@ h6 {
     flex-wrap: nowrap;
     -webkit-align-items: center;
     align-items: center;
+    font-size: 14px;
 }
 
 .ms-welcome__features.ms-List .ms-ListItem > .ms-Icon {
